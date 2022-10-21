@@ -76,7 +76,7 @@ export default class GameScene extends BaseScene {
 
             this.isDraggingMouse = true;
 
-            for (let i = 0; i < 5; i++) {
+            for (let i = 0; i < this.fruits.length; i++) {
                 let fruit = this.fruits[i];
 
                 if (!fruit.visible) continue;
@@ -151,7 +151,7 @@ export default class GameScene extends BaseScene {
         let pointer = this.input.mousePointer;
         
         // Resets fruit objects position or attributes
-        for (let i = 0; i < 5; i++) {
+        for (let i = 0; i < this.fruits.length; i++) {
             let fruit = this.fruits[i];
             if (fruit.y > TBUtils.config.world.centerY + (TBUtils.config.world.height * 0.5) + 10 && fruit.isStatic == false) {
                 fruit.dead();
