@@ -1,0 +1,11 @@
+{
+    "localization": {
+        "hello_world": {
+            "text": "Hello World",
+            "font": "kenney_pixel",
+            "size": 132,
+            "color": "0xFFFFFF",
+            "align": 1
+        }
+    }
+}

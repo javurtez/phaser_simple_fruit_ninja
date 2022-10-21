@@ -1,0 +1,11 @@
+{
+    "localization": {
+        "hello_world": {
+            "text": "Magandang Araw",
+            "font": "kenney_pixel",
+            "size": 54,
+            "color": "0x000000",
+            "align": 1
+        }
+    }
+}

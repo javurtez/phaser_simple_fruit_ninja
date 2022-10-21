@@ -1,0 +1,82 @@
+{
+	"textures": [
+		{
+			"image": "ui_atlas",
+			"format": "RGBA8888",
+			"size": {
+				"w": 180,
+				"h": 353
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "panel.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 180,
+						"h": 185
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 180,
+						"h": 185
+					},
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"w": 180,
+						"h": 185
+					}
+				},
+				{
+					"filename": "button_play.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 128,
+						"h": 128
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 128,
+						"h": 128
+					},
+					"frame": {
+						"x": 0,
+						"y": 185,
+						"w": 128,
+						"h": 128
+					}
+				},
+				{
+					"filename": "button.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 120,
+						"h": 40
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 120,
+						"h": 40
+					},
+					"frame": {
+						"x": 0,
+						"y": 313,
+						"w": 120,
+						"h": 40
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "http://free-tex-packer.com",
+		"version": "0.6.7"
+	}
+}
